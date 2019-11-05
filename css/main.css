@@ -6,12 +6,37 @@ body {
 
 }
 
+h1{ 
+    font-size: 60px;
+    text-align: center;
+}
+
+input {
+    margin: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-size: 30px;
+    width: 75px;
+    border: 1px solid grey;
+    padding: 10px;
+   
+}
+
 button {
+    margin: 0;
     background: gray;
     color: #fff;
+    width: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
  }
  
- button:hover, .MyButton:focus {
+ button:hover, button:focus {
     background: #fff;
     color: gray;
+
  }
